@@ -1,0 +1,15 @@
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 970px;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+}
+img{
+    display: block;
+}

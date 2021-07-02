@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mochi is a 7 months old ChowChow puppy. My husband and I got her
+    last December, and we have been in love with her since day 1. She is a very good girl, so very happy
+    and smiley allday everyday.">
+    <style>
+        .myDiv1{
+            border: 5px outset orange;
+            background-color: azure;
+            text-align: left;
+        }
+        .myDiv2{
+            border: 5px outset rgba(95, 60, 250, 0.76);
+            background-color: rgb(183, 241, 241);
+            text-align: center; 
+        }
+        
+        table, th, td {
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+    </style>
+    <title>My Fake Blog</title>
+</head>
+
+<body>
+    <h1>My Dog Mochi</h1>
+    <img src="Mochi.jpeg" alt="Mochi in bath" width="250" height="300">
+    <p>If you are not familiar with the dog breed:</p>
+    <a href="https://www.akc.org/dog-breeds/chow-chow/">Chow Chow breed information here.</a>
+    <div class="myDiv2">
+        <h2>heading 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dignissimos ea at 
+        sunt. Consectetur, consequuntur fugiat iure iste fugit totam commodi nobis, voluptate vitae at excepturi ab magni nam exercitationem.</p>
+    </div>
+    <div class="myDiv1">
+        <h2>Mochi's favorite things to eat</h2>
+        <ul>
+            <li>Beef</li>
+            <li>Chicken</li>
+            <li>Banana</li>
+            <li>Apple</li>
+            <li>Whipped cream</li>
+        </ul>
+    </div>
+    <div class="myDiv1">
+        <h2>Mochi's favorite things to eat</h2>
+        <ol>
+            <li>Beef</li>
+            <li>Chicken</li>
+            <li>Banana</li>
+            <li>Apple</li>
+            <li>Whipped cream</li>
+        </ol>
+    </div>
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Weight</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>December</td>
+                <td>8.8lbs</td>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>15lbs</td>
+            </tr>
+            <tr>
+                <td>May</td>
+                <td>36lbs</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="/action_page.php" method="get">
+        <h3>Please fill out this form:</h3>
+        <label>
+            First Name:<input type="text" name="First name">
+        </label>
+        <label>
+            Last Name:<input type="text" name="Last name">
+        </label>
+        <p> </p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <p>Select 2 of your favorite dog breeds:</p>
+        <label for="poodle">Poodle</label>
+        <input type="checkbox" id="poodle" name="breed" value="poodle">
+        <label for="chowchow">Chowchow</label>
+        <input type="checkbox" id="chowchow" name="breed" value="chowchow">
+        <label for="laborado">Laborado</label>
+        <input type="checkbox" id="laborado" name="breed" value="laborado">
+        <label for="husky">Husky</label>
+        <input type="checkbox" id="husky" name="breed" value="husky">
+        <p></p>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

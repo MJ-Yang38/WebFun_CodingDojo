@@ -1,0 +1,12 @@
+.container{
+    width: 720px;
+    height: 400px;
+    background-color:rgb(187, 227, 243);
+    display: flex-start;
+    align-items: center;
+}
+.col{
+    width: 220px;
+    padding:10px;
+    background-color: bisque;
+}

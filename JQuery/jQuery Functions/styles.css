@@ -1,0 +1,39 @@
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#wrapper{
+    width: 970px;
+    background-color: thistle;
+    margin: auto;
+}
+#top-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 300px;
+}
+#image-part{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+button{
+    margin: 20px;
+    height: 28px;
+    padding: 3px;
+}
+.highlighted{
+    background-color: teal;
+}
+h5{
+    background-color: wheat;
+}
+input{
+    margin: 30px;
+    width: 500px;
+}
